@@ -1,0 +1,117 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f6fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  text-align: center;
+  padding: 40px;
+}
+
+.main-home {
+  margin-top: 10%;
+}
+
+h1 {
+  color: #003366;
+}
+
+p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+a.btn, .btn-secundario, .btn-volver, button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #0055cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+a.btn:hover, .btn-secundario:hover, .btn-volver:hover, button:hover {
+  background: #003d99;
+}
+
+/* Formulario */
+.form-container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  text-align: left;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.mensaje-exito {
+  color: green;
+  font-weight: bold;
+}
+
+.mensaje-error {
+  color: red;
+  font-weight: bold;
+}
+
+/* Tabla */
+.ver-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.ver-container th, .ver-container td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.ver-container th {
+  background: #003366;
+  color: white;
+}
+
+.centrar-boton {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-ver-mensajes {
+  display: inline-block;
+  background-color: #1e40af; /* azul institucional */
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(30, 64, 175, 0.2);
+}
+
+.btn-ver-mensajes:hover {
+  background-color: #1d4ed8; /* azul un poco más vivo */
+  transform: scale(1.03);
+}
